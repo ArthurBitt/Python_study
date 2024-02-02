@@ -1,3 +1,27 @@
+"""
+args - argumentos nao nomeados
+*args (empacotamento e desempacotamento)
+"""
+
+"""*args"""
+x,y, *resto = 1,2,[3,4],(2,3),"arthur"
+print(x,y,*resto)
+
+
+def args(*args):
+    total = ""
+    for arg in args:
+        total += arg
+    
+    return total
+"""*args por padrão devolve uma tupla"""
+""" se x = 1,2,3 -> *args -> arg(x) -> tupla(tupla())"""
+
+x = args("a","r")
+print(x) # devolvendo tupla
+print(*x) # devolve valores desenpacotados
+
+
 """argumentos Padrão"""
 def nome_func(a, b = 1):
     # Definição da func - lógica

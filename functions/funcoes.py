@@ -1,8 +1,9 @@
 """ 
 Funções
-por padrão retornam None
-Podem receber argumentos
-Replicam determinanda ação
+Uma função sem return por padrão retorna None - 
+Podem receber argumentos - 
+Replicam determinanda ação -
+Uma função que retorna algum valor pode ser armazenada em uma variável
 """
 
 def nome_func():
@@ -31,4 +32,8 @@ print(nome_func("c","a","b"))
 
 
 
+x = nome_func(1,2,3)
+print(x)
 
+x = print("-")
+print(x) # executa o print pq print() chamou a função print,mas não tem retorno de valor - portanto, None.
