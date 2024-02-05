@@ -4,7 +4,8 @@ especificado ou espaço em branco por default ["olha", "só,","que"]
 
 strip. retira os espaços
 """
-x = ''
+
+x = ""
 
 frase = "Olha só, que coisa interessante"
 lista_frase = frase.split()
@@ -12,7 +13,7 @@ print(lista_frase)
 
 
 for i, caractere in enumerate(lista_frase):
-    x += (caractere.strip())
+    x += caractere.strip()
 print(x)
 
 

@@ -7,11 +7,13 @@ São funções tratadas como dados, que podem ser armazenadas em variáveis e re
 como argumento para outras funções.
 """
 
+
 def saudacao(msg, nome):
-    return f'{msg}, {nome}!'
+    return f"{msg}, {nome}!"
+
 
 def executa_saudacao(funcao, *args):
     return funcao(*args)
 
-print(executa_saudacao(saudacao,"Bom dia", "Arthur"))
 
+print(executa_saudacao(saudacao, "Bom dia", "Arthur"))

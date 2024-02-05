@@ -8,7 +8,7 @@ id - identidade
 condicao = True
 passou_no_if = None
 
-if (condicao):
+if condicao:
     passou_no_if = True
     print("if")
 else:
