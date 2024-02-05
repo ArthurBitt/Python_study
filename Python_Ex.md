@@ -60,6 +60,14 @@ Aqui estão alguns exercícios para praticar esses conceitos:
 6. Crie uma lista de números e utilize um loop `for` para calcular a soma de todos os elementos. Utilize um bloco `try-except` para lidar com possíveis exceções.
 7. Construa um código que calcule a média dos valores em uma lista. Utilize um bloco `try-except` para lidar com a divisão por zero, caso a lista esteja vazia.
 
+## Exercícios de Funções
+
+1.  Crie uma função fala se um número é par ou ímpar. Retorne se o número é par ou ímpar.
+
+2.Crie uma função que multiplica todos os argumentos
+não nomeados recebidos. Retorne o total para uma variável e mostre o valor
+da variável.
+
 ## Exercícios de Dicionários
 
 Dicionários são estruturas de dados que armazenam pares de chave-valor. Eles são úteis quando você precisa associar valores a chaves para recuperá-los de maneira eficiente.
