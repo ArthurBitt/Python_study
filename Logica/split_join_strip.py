@@ -1,6 +1,6 @@
 """
-split. separa pelos caracter 
-especificado ou espaço em branco por default ["olha", "só,","que"]
+split. separa pelos caracter especificado ou 
+espaço em branco por default ["olha", "só,","que"]
 
 strip. retira os espaços
 """

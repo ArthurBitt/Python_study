@@ -56,9 +56,11 @@ ultima_chave = pessoa.popitem()
 print(pessoa)
 
 '''update - atualiza um dict com outro'''
-pessoa.update({
+pessoa = {
     'nome': 'Arthur',
     
-})
-
+}
+print(pessoa)
 pessoa.update(idade = 26)
+
+print(pessoa)

@@ -6,7 +6,7 @@ args - argumentos nao nomeados
 """*args"""
 x, y, *resto = 1, 2, [3, 4], (2, 3), "arthur"
 print(x, y, *resto)
-
+]]
 
 def args(*args):
     total = ""
